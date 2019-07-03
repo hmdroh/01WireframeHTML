@@ -1,0 +1,16 @@
+body{
+    background-color: gray;
+}
+
+header, nav, section, div, aside, footer{
+    background-color: rgb(199, 199, 199);
+    color: black;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+article{
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
