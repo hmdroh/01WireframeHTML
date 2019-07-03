@@ -2,15 +2,48 @@ body{
     background-color: gray;
 }
 
+
 header, nav, section, div, aside, footer{
     background-color: rgb(199, 199, 199);
     color: black;
     padding: 30px;
     margin: 20px;
     text-align: center;
+    display: block;
 }
 
+.container{
+display: block;
+    height: 400px;
+    color: red;
+    align-content: center;
+clear: both;
+
+}
+section{
+
+    width: calc(40% - 54px);  
+    float: left;
+    height: 300px;
+
+}
+
+aside{
+
+    width: calc(40% - 54px);  
+    float: right;    
+    height: 300px;
+
+
+}
+
+
+
 article{
-    background-color: rgb(82, 82, 82);
+    background-color: rgb(99, 99, 99);
     color: white;
+}
+
+footer{
+
 }
